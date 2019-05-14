@@ -1,0 +1,129 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:07
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../font/flaticon.eot");
+  src: url("../font/flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../font/flaticon.woff") format("woff"),
+       url("../font/flaticon.ttf") format("truetype"),
+       url("../font/flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fornt/flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+}
+
+.flaticon-ambulance:before { content: "\f100"; }
+.flaticon-baby-face:before { content: "\f101"; }
+.flaticon-bandage-cross:before { content: "\f102"; }
+.flaticon-biohazard:before { content: "\f103"; }
+.flaticon-biology-shape:before { content: "\f104"; }
+.flaticon-blood-analysis:before { content: "\f105"; }
+.flaticon-blood-cell:before { content: "\f106"; }
+.flaticon-blood-drop:before { content: "\f107"; }
+.flaticon-blood-pressure-control-tool:before { content: "\f108"; }
+.flaticon-blood-sample:before { content: "\f109"; }
+.flaticon-blood-transfusion:before { content: "\f10a"; }
+.flaticon-brain-in-bald-male-head:before { content: "\f10b"; }
+.flaticon-broken-bone:before { content: "\f10c"; }
+.flaticon-broken-feet-with-bandage:before { content: "\f10d"; }
+.flaticon-brush-with-tooth-paste:before { content: "\f10e"; }
+.flaticon-caduceus-medical-symbol-of-two-ascending-serpents-on-a-cane-with-wings:before { content: "\f10f"; }
+.flaticon-cells-in-a-circle:before { content: "\f110"; }
+.flaticon-chemistry-flask-with-liquid:before { content: "\f111"; }
+.flaticon-crutch:before { content: "\f112"; }
+.flaticon-crutches-couple:before { content: "\f113"; }
+.flaticon-dentist-tool:before { content: "\f114"; }
+.flaticon-dosage-medical-tool:before { content: "\f115"; }
+.flaticon-drug-pills:before { content: "\f116"; }
+.flaticon-drugs-capsules-and-pills:before { content: "\f117"; }
+.flaticon-emergency-light:before { content: "\f118"; }
+.flaticon-eye-scanner-medical-symbol:before { content: "\f119"; }
+.flaticon-family-of-heterosexual-couple:before { content: "\f11a"; }
+.flaticon-female-sign:before { content: "\f11b"; }
+.flaticon-first-aid-kit:before { content: "\f11c"; }
+.flaticon-handicap:before { content: "\f11d"; }
+.flaticon-heart-beats-lifeline-in-a-heart:before { content: "\f11e"; }
+.flaticon-heart-black-shape:before { content: "\f11f"; }
+.flaticon-heart-rate-monitor:before { content: "\f120"; }
+.flaticon-hospital-bed-silhouette-side-view:before { content: "\f121"; }
+.flaticon-hospital-building-front:before { content: "\f122"; }
+.flaticon-hospital-letter-sign-in-rounded-square:before { content: "\f123"; }
+.flaticon-hospital-medical-signal-of-a-cross-in-a-circle:before { content: "\f124"; }
+.flaticon-hospital-placeholder:before { content: "\f125"; }
+.flaticon-human-ear-shape:before { content: "\f126"; }
+.flaticon-human-eye-shape:before { content: "\f127"; }
+.flaticon-human-feet-shape:before { content: "\f128"; }
+.flaticon-hurted-finger-with-bandage:before { content: "\f129"; }
+.flaticon-illness-on-bed:before { content: "\f12a"; }
+.flaticon-lifeline-of-heartbeats-on-a-paper-on-a-clipboard:before { content: "\f12b"; }
+.flaticon-lungs-silhouette:before { content: "\f12c"; }
+.flaticon-male-gender-sign:before { content: "\f12d"; }
+.flaticon-medical-chain-symbol-of-dna:before { content: "\f12e"; }
+.flaticon-medical-chopper-transport:before { content: "\f12f"; }
+.flaticon-medical-circular-glasses:before { content: "\f130"; }
+.flaticon-medical-doctor-specialist:before { content: "\f131"; }
+.flaticon-medical-hammer-tool:before { content: "\f132"; }
+.flaticon-medical-heart-scan:before { content: "\f133"; }
+.flaticon-medical-notes-symbol-of-a-list-paper-on-a-clipboard:before { content: "\f134"; }
+.flaticon-medical-pill:before { content: "\f135"; }
+.flaticon-medical-results-folders:before { content: "\f136"; }
+.flaticon-medical-samples-in-test-tubes-couple:before { content: "\f137"; }
+.flaticon-medical-talk-symbol-of-rectangular-speech-bubble-with-a-cross-inside:before { content: "\f138"; }
+.flaticon-medical-temperature-control-tool:before { content: "\f139"; }
+.flaticon-medicine-capsules:before { content: "\f13a"; }
+.flaticon-medicine-small-bottle-with-dropper-included-for-drops-dosage:before { content: "\f13b"; }
+.flaticon-medicines-bowl:before { content: "\f13c"; }
+.flaticon-men-silhouette:before { content: "\f13d"; }
+.flaticon-microscope-tool:before { content: "\f13e"; }
+.flaticon-mother-with-baby-in-arms:before { content: "\f13f"; }
+.flaticon-mouth-tube-in-bald-male-head:before { content: "\f140"; }
+.flaticon-negative-sign-on-medical-clipboard:before { content: "\f141"; }
+.flaticon-nurse:before { content: "\f142"; }
+.flaticon-nurse-1:before { content: "\f143"; }
+.flaticon-opened-medical-scissors:before { content: "\f144"; }
+.flaticon-oxygen:before { content: "\f145"; }
+.flaticon-person-with-broken-arm:before { content: "\f146"; }
+.flaticon-pharmacy-shopping-cart:before { content: "\f147"; }
+.flaticon-pharmacy-symbol:before { content: "\f148"; }
+.flaticon-pharmacy-tool:before { content: "\f149"; }
+.flaticon-poison-bottle-with-a-skull-symbol:before { content: "\f14a"; }
+.flaticon-positive-verified-symbol-of-a-clipboard:before { content: "\f14b"; }
+.flaticon-pregnancy:before { content: "\f14c"; }
+.flaticon-pulse-line:before { content: "\f14d"; }
+.flaticon-rolled-paper-for-bathroom:before { content: "\f14e"; }
+.flaticon-scale-balanced-tool:before { content: "\f14f"; }
+.flaticon-scale-tool-to-control-body-weight-standing-on-it:before { content: "\f150"; }
+.flaticon-scalpel-or-knife-medical-surgery-cutting-tool:before { content: "\f151"; }
+.flaticon-screw:before { content: "\f152"; }
+.flaticon-sperm:before { content: "\f153"; }
+.flaticon-stethoscope-medical-heart-beats-control-tool:before { content: "\f154"; }
+.flaticon-stomach-shape:before { content: "\f155"; }
+.flaticon-symbolic-cancer-ribbon:before { content: "\f156"; }
+.flaticon-syringe-with-medicine:before { content: "\f157"; }
+.flaticon-syrup-medicine-bottle:before { content: "\f158"; }
+.flaticon-tag-with-a-cross:before { content: "\f159"; }
+.flaticon-teeth-silhouette:before { content: "\f15a"; }
+.flaticon-thermometer-medical-fever-temperature-control-tool:before { content: "\f15b"; }
+.flaticon-three-hexagons-cell-symbol:before { content: "\f15c"; }
+.flaticon-toxic-symbol:before { content: "\f15d"; }
+.flaticon-unhealthy-medical-condition:before { content: "\f15e"; }
+.flaticon-united-heterosexual-symbols:before { content: "\f15f"; }
+.flaticon-water-glass:before { content: "\f160"; }
+.flaticon-weight-silhouette-for-medical-sport-practice:before { content: "\f161"; }
+.flaticon-women-silhouette:before { content: "\f162"; }
+.flaticon-x-ray-of-bones:before { content: "\f163"; }
