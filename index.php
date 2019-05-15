@@ -39,13 +39,12 @@ foreach ($files as $key => $file) {
         <title>Medische Monitor</title>
 
         <!-- refresh every 5 seconds -->
-        <!-- <meta http-equiv="refresh" content="5"> -->
+        <meta http-equiv="refresh" content="5">
     </head>
     <body>
         <nav class="navbar navbar-dark bg-dark">
             <a class="navbar-brand" href="#">
-                <i class="flaticon-heart-rate-monitor"></i>
-                Medische Monitor
+                <i class="flaticon-heart-rate-monitor"></i> Medische Monitor
             </a>
         </nav>
 
@@ -53,11 +52,68 @@ foreach ($files as $key => $file) {
 
             <?php if ($data['bed'] !== '0'): ?>
                 <div class="row">
-                    <div class="col-sm alert alert-danger" role="alert">
-                        De patiënt is uit bed!
+                    <div class="col-sm-12">
+                        <div class="alert alert-danger" role="alert">
+                            <i class="flaticon-illness-on-bed"></i> De patiënt is uit bed!
+                        </div>
                     </div>
                 </div>
             <?php endif; ?>
+
+            <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <i class="flaticon-heart-beats-lifeline-in-a-heart"></i> Hartslag
+                        </div>
+                        <div class="card-body">
+                            <?= $data['heartRate'] ?>
+                        </div>
+                        <div class="card-footer text-muted">
+                            BPM
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <i class="flaticon-blood-pressure-control-tool"></i> Bloeddruk
+                        </div>
+                        <div class="card-body">
+                            <?= $data['bloodPressure'] ?>
+                        </div>
+                        <div class="card-footer text-muted">
+                            mmhg
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <i class="flaticon-oxygen"></i> Saturatie
+                        </div>
+                        <div class="card-body">
+                            <?= $data['saturation'] ?>
+                        </div>
+                        <div class="card-footer text-muted">
+                            %
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <i class="flaticon-thermometer-medical-fever-temperature-control-tool"></i> Temperatuur
+                        </div>
+                        <div class="card-body">
+                            <?= $data['temperature'] ?>
+                        </div>
+                        <div class="card-footer text-muted">
+                            &deg;C
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 

@@ -1,0 +1,7 @@
+.navbar, .card {
+    margin-bottom: 15px;
+}
+
+.card-body {
+    font-size: 3em;
+}
